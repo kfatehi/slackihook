@@ -1,3 +1,5 @@
+[![NPM](https://nodei.co/npm/slackihook.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/slackihook/)
+
 slackihook
 ==========
 
