@@ -1,0 +1,23 @@
+{
+  "name": "slackihook",
+  "version": "1.0.0",
+  "description": "Send incoming webhooks to Slack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"no tests\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/keyvanfatehi/slackihook.git"
+  },
+  "author": "Keyvan Fatehi <keyvanfatehi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keyvanfatehi/slackihook/issues"
+  },
+  "homepage": "https://github.com/keyvanfatehi/slackihook",
+  "devDependencies": {},
+  "dependencies": {
+    "needle": "^0.7.10"
+  }
+}
