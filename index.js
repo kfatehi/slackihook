@@ -6,7 +6,12 @@ function Slack(webhookURL) {
   this.webhookURL = webhookURL;
 }
 
+function noop() { }
+
 Slack.prototype.send = function(payload, cb) {
+  if(typeof cb !== 'function')
+    cb = noop;
+
   if (!payload.text)
     return cb(new Error('No text specified'));
 
