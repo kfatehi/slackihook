@@ -1,6 +1,6 @@
 {
   "name": "slackihook",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Send incoming webhooks to Slack",
   "main": "index.js",
   "scripts": {
